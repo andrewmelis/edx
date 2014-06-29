@@ -27,9 +27,6 @@ class BookInStock
 
 end
 
-
-
-
 RSpec.describe BookInStock do
   describe "#initialize" do
     it "sets the isbn and price of a book" do
@@ -47,7 +44,4 @@ RSpec.describe BookInStock do
     end
 
   end
-
-
-
 end

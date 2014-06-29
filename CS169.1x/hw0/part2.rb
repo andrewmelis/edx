@@ -8,8 +8,9 @@ def starts_with_consonant?(s)
   !!(s[0] =~ /^[^aeiou|\d]/i)
 end
 
-
-
+def binary_multiple_of_4?(num)
+  raise Error
+end
 
 RSpec.describe "part 2" do
 
